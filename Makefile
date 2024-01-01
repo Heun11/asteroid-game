@@ -17,7 +17,7 @@ OFLAGS = -O0
 CFLAGS = -Wall -g -I$(SRCDIR) $(OFLAGS) 
 
 # x86_64-w64-mingw32-gcc source/main.c -o main.exe -I ./libs/raylib-5.0_win64_mingw-w64/include/ -L ./libs/raylib-5.0_win64_mingw-w64/lib/ -l :libraylib.a -mwindows -lwinmm
-WIN_LINK_FLAGS = -L$(RAYLIB)/lib -l:libraylib.a -mwindows -lwinmm
+WIN_LINK_FLAGS = -L$(RAYLIB)/lib -l:libraylib.a -mwindows -lwinmm -lm
 WIN_INCL_FLAGS = -I$(RAYLIB)/include/
 
 all: win linux
