@@ -161,7 +161,7 @@ int main(void)
         }
         a = 0;
         p = (Rectangle){(float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, TS, TS*2};
-        d = (Rectangle){(float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, TS*2, (float)TS/3};
+        d = (Rectangle){(float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2, TS, TS};
         distance = defDist; 
         onGround = 0;
         yvel = 0;
