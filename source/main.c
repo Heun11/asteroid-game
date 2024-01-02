@@ -26,7 +26,7 @@ int main(void)
 {
   SCREEN_WIDTH = 1200;
   SCREEN_HEIGHT = 1000;
-  InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Save the planet");
+  InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Asteroid Aeronaut");
   int display = GetCurrentMonitor();
   SCREEN_WIDTH = GetMonitorWidth(display);
   SCREEN_HEIGHT = GetMonitorHeight(display);
